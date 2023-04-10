@@ -24,7 +24,7 @@ public class PrivacyModel : PageModel
 
         Data = new Form();
         Data.Mail = parametro;
-        Data.Password = "12345";
+        Data.Password = "123456";
     }
 
     public IActionResult OnPost(){
